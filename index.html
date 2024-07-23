@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/script.js"></script>
+
+    <title>Market Place</title>
+  </head>
+  <body>
+    <div class="container margin_top">
+
+        <div class="row g-3 margin_bottom">
+            <div class="col">
+              <label for="firstName" class="form-label">Full name</label>
+              <input type="text" class="form-control" aria-label="First name">
+            </div>
+            <div class="col">
+              <label for="product" class="form-label">Product purchased</label>
+              <input type="text" class="form-control" aria-label="product">
+            </div>
+        </div>
+
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail" placeholder=".....@email.com"/>
+        </div>
+        <div class="col-md-6">
+          <label for="inputAmount" class="form-label">Amount</label>
+          <input type="number" class="form-control" id="inputAmount" />
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress"
+            placeholder="1234 Main St"
+          />
+        </div>
+        <div class="col-12">
+          <label for="phoneNumber" class="form-label">Phone Number</label>
+          <input
+            type="tel"
+            class="form-control"
+            id="inputPhoneNumber"
+            placeholder="+234........"
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="inputCountry" class="form-label">Country</label>
+          <input type="text" class="form-control" id="inputCity" placeholder="Ni..."/>
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>Lagos</option>
+            <option>Abuja</option>
+            <option>Ogun</option>
+            <option>Ondo</option>
+            <option>Anambra</option>
+            <option>Benin</option>
+            <option>Kaduna</option>
+            <option>Kwara</option>
+            <option>Niger</option>
+            <option>Osun</option>
+            <option>Oyo</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip" />
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" />
+            <label class="form-check-label" for="gridCheck">
+              Send receipt through email
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Print Receipt</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
