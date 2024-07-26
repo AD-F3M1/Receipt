@@ -32,3 +32,7 @@ $(document).ready(function(){
 function printInvoice(){
     window.print();
 }
+
+function downloadInvoice(){
+    window.download();
+}
